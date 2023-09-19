@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <form action="https://www.google.com" method="post">
+            <h1>Thông tin đăng nhập sinh viên</h1>
+            <label>Mã số sinh viên</label>
+            <input type="text"/><br />
+            <label>Mật Khẩu</label>
+            <input type="password" /><br/>
+            <input type="checkbox"/> <label>Lưu thông tin đăng nhập</label><br/>
+            <input type="submit" value="Đăng nhập"/><br/>
+            <label>Sử dụng thông tin đăng nhập do trường cấp, nếu quên mật khẩu thì nhấn vào <a href="http://localhost:61194/Home/Bai2Lab1cRepass">đây</a></label>
+        </form>
+        @RenderBody()
+    </div>
+</body>
+</html>

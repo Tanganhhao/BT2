@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <form action="https://www.google.com" method="post">
+            <h1>NHẬP THÔNG TIN SINH VIÊN</h1>
+            <label>HỌ VÀ TÊN</label>
+            <input type="text" /><br />
+            <label>MÃ SỐ SINH VIÊN</label>
+            <input type="text" /><br />
+            <label>NGÀY SINH</label>
+            <input type="date" /><br />
+            <label>CHUYÊN NGÀNH:</label>
+            <input type="radio" />
+            <label>CNPM</label>
+            <input type="radio" />
+            <label>HTTT</label>
+            <input type="radio" />
+            <label>AN NINH MẠNG</label>
+
+            <label>SỞ THÍCH</label><br />
+            <input type="checkbox" />
+            <label>VIẾT CHƯƠNG TRÌNH</label><br />
+            <input type="checkbox" />
+            <label>PHÂN TÍCH CSDL</label><br />
+            <input type="checkbox" />
+            <label>XÂY DỰNG SƠ ĐỒ MẠNG</label><br />
+            <label>MÀU SẮC YÊU THÍCH</label>
+            <input type="color" /><br />
+            <label>HÌNH ĐẠI DIỆN</label>
+            <input type="file" value="BROWSE..." /><br />
+            <label>TÊN ĐĂNG NHẬP WEB TRƯỜNG</label>
+            <input type="text" /><br />
+            <label>MẬT KHẨU ĐĂNG NHẬP WEB TRƯỜNG</label>
+            <input type="password" /><br />
+            <input type="button" value="Gửi dữ liệu về máy chủ" />
+
+        </form>
+        @RenderBody()
+    </div>
+</body>
+</html>

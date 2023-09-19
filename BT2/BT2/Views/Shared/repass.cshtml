@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <form action="https://www.google.com" method="post">
+            <fieldset>
+                <legend>Lấy lại mật khẩu</legend>
+
+                <label>Mã số sinh viên</label>
+                <input type="password" /><br />
+                <label>Mật Khẩu Cũ</label>
+                <input type="password" /><br />
+                <label>Mật Khẩu Mới</label>
+                <input type="password" /><br />
+                <label>Nhập Lại Mật Khẩu Mới</label>
+                <input type="password" /><br />
+                <input type="submit" value="Lưu Lại" /><br />
+            </fieldset>
+        </form>
+        @RenderBody()
+    </div>
+</body>
+</html>
